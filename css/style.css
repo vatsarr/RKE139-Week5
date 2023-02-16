@@ -37,7 +37,8 @@ body {
 }
 
 .intro-image_link a:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
+  color: #ffffff;
 }
 
 .intro-text {
@@ -78,7 +79,8 @@ body {
 }
 
 .quality-image_link a:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
+  color: #ffffff;
 }
 
 .quality-text {
@@ -94,32 +96,6 @@ body {
 .quality-text_textbox h3 {
   font-size: 3rem;
   margin-bottom: 1rem;
-}
-
-.footer {
-  background-color: #533623;
-  color: #fefbe9;
-  height: 250px;
-  padding-top: 2rem;
-  font-size: 1.5rem;
-}
-
-.footer ul li {
-  display: inline-block;
-  margin: 0.7rem;
-}
-
-.footer ul li a {
-  text-decoration: none;
-  color: #fefbe9;
-}
-
-.footer ul li:hover {
-  transform: scale(1.05);
-}
-
-.footer ul li a:hover {
-  color: #ffffff;
 }
 
 .origin-image {
@@ -145,7 +121,8 @@ body {
 }
 
 .origin-image_link a:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
+  color: #ffffff;
 }
 
 .origin-text {
@@ -161,4 +138,30 @@ body {
 .origin-text_textbox h3 {
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #533623;
+  color: #fefbe9;
+  height: 250px;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0.7rem;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #fefbe9;
+}
+
+.footer ul li:hover {
+  transform: scale(1.005);
+}
+
+.footer ul li a:hover {
+  color: #ffffff;
 }
